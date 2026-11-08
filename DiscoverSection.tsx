@@ -1,9 +1,9 @@
 'use client';
 import { useMemo, useState } from 'react';
 import { Search, SlidersHorizontal, Bookmark } from 'lucide-react';
-import { OPPORTUNITIES } from '@/data/opportunities';
-import { useSavedOpportunities } from '@/hooks/useSavedOpportunities';
-import OpportunityCommunity from '@/components/OpportunityCommunity';
+import { OPPORTUNITIES } from './opportunities';
+import { useSavedOpportunities } from './useSavedOpportunities';
+import OpportunityCommunity from './OpportunityCommunity';
 
 const todayISO = () => {
   const now = new Date();
