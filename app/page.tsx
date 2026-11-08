@@ -1,6 +1,5 @@
-import DiscoverSection from '@/components/DiscoverSection';
-import ConsultationHub from '@/components/ConsultationHub';
-
+import DiscoverSection from '../DiscoverSection';
+import ConsultationHub from '../ConsultationHub';
 export default function Home(){
   return <main className="grid-bg" style={{minHeight:'100vh'}}>
     <header className="nav container">
